@@ -1,1 +1,2 @@
-# MFEP
+Minimum Free Energy Pathway (MFEP) Finder
+This is a tool for finding the pathway between two energetically stable states. To compile the code just type "make". That will create an executable "mfep" in the main directory. You need to edit minima file to define the initial and final states positions. It reads a free energy map called "freefile" in the main directory. Copy your free energy map here and replace with this freefile. Then execute the code by typing "./mfep". That will create an output named as "smoothpath.dat" in the results directory. There is an example gnuplot script and a readable format of free energy file by gnuplot in the results directory. To see that path, you need to install gnuplot on your pc and then just type "gnuplot -p 2dc.plt".
