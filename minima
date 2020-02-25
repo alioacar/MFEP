@@ -1,0 +1,8 @@
+0.4 24.3
+-4.1 20.5
+1 0.87
+
+#1st line #final state x,y coordinates
+#2nd line #initial state x,y coordinates
+#3rd line # weighting = on or off (1 or 0) # weighting factor
+#default weighting factor is 0.87 
