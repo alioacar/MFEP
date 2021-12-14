@@ -1,3 +1,7 @@
+! additional functions can be added here.
+! currently only has linear func
+
+
 module functions
 contains
 
